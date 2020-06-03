@@ -1,8 +1,9 @@
-container {
-  
-}
 
 .image {
   max-width: 200px;
   max-height: 200px;
+}
+
+#notdead, #under-20 {
+  display: none;
 }
