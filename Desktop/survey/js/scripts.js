@@ -10,10 +10,11 @@
 $(document).ready(function() {
   $("form#ghostquiz").submit(function(event) {
   //const age = parseInt(prompt("How old are you?"));
-  const place = $("input:radio[name=place]:").val();
+  const place = $("input:radio[name=place]:checked").val();
   const dod = $("#death").val();
   const notmiss = $("#notmiss").val();
-  $(".results").text(result);
+  const results = place + " " + dod + " " + notmiss;
+  $("#results").text(results);
   
   event.preventDefault();
   });
