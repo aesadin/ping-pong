@@ -7,3 +7,7 @@
 #notdead, #under-20 {
   display: none;
 }
+
+h5 {
+  font-style: italic;
+}
